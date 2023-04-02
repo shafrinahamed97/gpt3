@@ -4,7 +4,7 @@ import './Footers.css';
 const Footers = () => {
     return (
         <div>
-
+            <h2>This is Footer section</h2>
         </div>
     );
 };

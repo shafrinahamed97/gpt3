@@ -1,7 +1,21 @@
 
 import './App.css';
-import { Footers, Blog, Posibility, Features, WhatGPT3, Headers } from './containers';
-import { CTA, Brands, Navbar } from './components';
+
+
+import Footers from './containers/footers/Footers';
+import Header from './containers/header/Header';
+import Blog from './containers/blog/Blog';
+import Posibility from './containers/posibility/Posibility';
+import Features from './containers/fetaures/Features';
+
+
+
+
+import CTA from './components/cta/CTA';
+import Brands from './components/brands/Brands';
+import Navbar from './components/navbar/Navbar';
+import WhatGPT from './containers/whatGPT/WhatGPT';
+
 
 
 
@@ -10,10 +24,10 @@ function App() {
     <div className="App">
       <div className="gradient-bg">
         <Navbar></Navbar>
-        <Headers></Headers>
+        <Header></Header>
       </div>
       <Brands></Brands>
-      <WhatGPT3></WhatGPT3>
+      <WhatGPT></WhatGPT>
       <Features></Features>
       <Posibility></Posibility>
       <CTA></CTA>
