@@ -1,5 +1,6 @@
 .gpt3-header{
     display: flex;
+    flex-direction: row;
 }
 
 .gpt3-header-content{
@@ -21,10 +22,9 @@
 
 .gpt3-header-content p{
     font-family: var(--font-family);
-    font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 28px;
     color: var(--color-text);
     margin-top: 1.5rem;
 }
@@ -33,6 +33,7 @@
     width: 100%;
     margin: 2rem 0 1rem;
     display: flex;
+    flex-direction: row;
 }
 
 .gpt-3-header-content-input input{
@@ -40,16 +41,17 @@
     width: 100%;
     min-height: 50px;
     font-family: var(--font-family);
+    font-weight: 400;
     font-size: 20px;
-    line-height: 27px;
-
-    background:var(--color-footer);
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
     padding: 0 1rem;
     outline: none;
     color: #fff;
-    border: 2px solid var(--color-footer);
-    border-radius: 5px 0px 0px 5px ;
-    color: #3d6184;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .gpt-3-header-content-input button{
@@ -66,6 +68,7 @@
     color: #fff;
     cursor: pointer;
     outline: none;
+
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -76,8 +79,11 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
+
     margin-top: 2rem;
 }
+
+
 .gpt3-header-content-people img{
     width: 181.79px;
     height: 38px;
